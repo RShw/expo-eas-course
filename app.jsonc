@@ -9,9 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "bundleIdentifier": "com.companyName.appName", //<-- add this line
       "supportsTablet": true
     },
     "android": {
+      "package": "com.companyName.appName", //<-- add this line
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
