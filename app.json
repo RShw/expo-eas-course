@@ -9,11 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "com.companyName.appName", //<-- add this line
+      "bundleIdentifier": "com.companyName.appName",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.companyName.appName", //<-- add this line
+      "package": "com.companyName.appName",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -38,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "22631589-0366-47fc-ae86-8590cc23c466"
+      }
+    },
+    "owner": "augustcasse"
   }
 }
