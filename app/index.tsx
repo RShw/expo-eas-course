@@ -10,6 +10,12 @@ export default function Index() {
       }}
     >
       <Text>EAS Course Update Again</Text>
+      {/* Add this line */}
+      <Text>OTA Text Update</Text>
     </View>
   );
 }
+
+
+
+

@@ -37,18 +37,26 @@ export default ({ config }: ConfigContext): ExpoConfig => {
         ios: {
             ...config.ios,
             bundleIdentifier: iosBundleIdentifier,
-            /*** ADD THOS LINES ***/
             config: {
                 usesNonExemptEncryption: false
             }
-            /*** ADD THOS LINES ***/
         },
         android: {
             ...config.android,
             package: androidPackage,
         },
+        /*** ADD THOSE LINES ***/
+        updates: {
+            url: 'https://u.expo.dev/22631589-0366-47fc-ae86-8590cc23c466',
+        },
+        runtimeVersion: {
+            policy: 'appVersion',
+        },
+        /*** ADD THOSE LINES ***/
     } as ExpoConfig;
 };
+
+
 
 
 
