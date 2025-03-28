@@ -9,11 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "bundleIdentifier": "com.companyName.appName",
+      "bundleIdentifier": "com.augustcasse.ecv-expo-course-eas",
       "supportsTablet": true
     },
     "android": {
-      "package": "com.companyName.appName",
+      "package": "com.augustcasse.ecv-expo-course-eas",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"

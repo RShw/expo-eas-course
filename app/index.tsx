@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>EAS Course</Text>
+      <Text>EAS Course Update Again</Text>
     </View>
   );
 }
